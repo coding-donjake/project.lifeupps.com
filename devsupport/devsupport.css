@@ -1,0 +1,282 @@
+/* colors start */
+
+:root {
+	--default: #ccc;
+	--default-color: #333;
+	--default-hover: #b3b3b3;
+
+	--c1: #ff6347;
+	--c1-color: #fff;
+	--c1-hover: #ff3c1a;
+
+	--c2: #3cb371;
+	--c2-color: #fff;
+	--c2-hover: #339961;
+
+	--c3: #7b68ee;
+	--c3-color: #fff;
+	--c3-hover: #6047eb;
+
+	--c4: #663399;
+	--c4-color: #fff;
+	--c4-hover: #4d2673;
+
+	--c5: #ffd700;
+	--c5-color: #333;
+	--c5-hover: #e6c300;
+
+	--c6: #ff69b4;
+	--c6-color: #fff;
+	--c6-hover: #ff3399;
+
+	--c7: #b8860b;
+	--c7-color: #fff;
+	--c7-hover: #916a08;
+
+	--c8: #333;
+	--c8-color: #fff;
+	--c8-hover: #000;
+}
+
+/* colors end */
+
+
+
+/* btns start */
+
+.btns-classic-v1 {
+	min-width: 100px;
+	padding: 10px 25px;
+	background-color: var(--default);
+	border: none;
+	border-radius: 20px;
+	color: var(--default-color);
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.btns-classic-v1:hover {
+	background-color: #b3b3b3;
+}
+
+.btns-classic-v1 .btn-icon {
+	margin-right: 10px;
+}
+
+/* btns end */
+
+
+
+/* icons start */
+
+.icons-v1 {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	background-color: var(--default);
+	border-radius: 50%;
+	color: var(--default-color);
+	cursor: pointer;
+	user-select: none;
+}
+
+.icons-v1:hover {
+	background-color: var(--default-hover);
+}
+
+.icons-v1 span {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+/* icons end */
+
+
+
+/* inpts start */
+
+.inpts-classic-v1 {
+	height: 38px;
+	padding: 10px 25px;
+	background-color: var(--default);
+	border: none;
+	border-radius: 20px;
+}
+
+.inpts-classic-v1:focus {
+	background-color: var(--default-hover);
+}
+
+select.inpts-classic-v1 {
+	-webkit-appearance: none;
+}
+
+select.inpts-classic-v1 option {
+	background-color: #fff;
+}
+
+textarea.inpts-classic-v1 {
+	height: 150px;
+	resize: none;
+}
+
+/* inpts end */
+
+
+
+/* spays start */
+
+.sprays-v1 {
+	color: #333;
+	text-align: center;
+	user-select: none;
+}
+
+.sprays-v1 span {
+	margin-bottom: 20px;
+	font-size: 6rem;
+}
+
+.sprays-v1 .spray-text {
+	margin-top: 10px;
+}
+
+.sprays-v1 .spray-text a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* sprays end */
+
+
+
+/* stickers start */
+
+.stickers-v1 {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	background-color: var(--default);
+	border-radius: 30px;
+	user-select: none;
+}
+
+.stickers-v1 span {
+	top: 35px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	font-size: 4rem;
+}
+
+.stickers-v1 .sticker-label {
+	bottom: 35px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	font-size: 1.3rem;
+}
+
+.stickers-v1:hover {
+	background-color: var(--default-hover);
+}
+
+/* stickers start */
+
+
+
+/* color theme start */
+
+.ctc1 {
+	background-color: var(--c1);
+	color: var(--c1-color);
+}
+
+.ctc1:hover {
+	background-color: var(--c1-hover);
+}
+
+.ctc2 {
+	background-color: var(--c2);
+	color: var(--c2-color);
+}
+
+.ctc2:hover {
+	background-color: var(--c2-hover);
+}
+
+.ctc3 {
+	background-color: var(--c3);
+	color: var(--c3-color);
+}
+
+.ctc3:hover {
+	background-color: var(--c3-hover);
+}
+
+.ctc4 {
+	background-color: var(--c4);
+	color: var(--c4-color);
+}
+
+.ctc4:hover {
+	background-color: var(--c4-hover);
+}
+
+.ctc5 {
+	background-color: var(--c5);
+	color: var(--c5-color);
+}
+
+.ctc5:hover {
+	background-color: var(--c5-hover);
+}
+
+.ctc6 {
+	background-color: var(--c6);
+	color: var(--c6-color);
+}
+
+.ctc6:hover {
+	background-color: var(--c6-hover);
+}
+
+.ctc7 {
+	background-color: var(--c7);
+	color: var(--c7-color);
+}
+
+.ctc7:hover {
+	background-color: var(--c7-hover);
+}
+
+.ctc8 {
+	background-color: var(--c8);
+	color: var(--c8-color);
+}
+
+.ctc8:hover {
+	background-color: var(--c8-hover);
+}
+
+/* color theme end */
+
+.font-medium {
+	font-size: 1.4rem;
+}
+
+.font-large {
+	font-size: 1.8rem;
+}
+
+@media (max-width: 500px) {
+	.font-medium {
+		font-size: 1.3rem;
+	}
+
+	.font-large {
+		font-size: 1.6rem;
+	}
+}
